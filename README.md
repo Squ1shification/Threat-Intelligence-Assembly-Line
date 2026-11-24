@@ -11,6 +11,7 @@ Port of the CrewAI `ThreatIntelAssemblyLine` flow to plain Python. Same three ag
 ```bash
 pip install -r requirements.txt
 export EXA_API_KEY=...
+export GEMINI_API_KEY=...
 ```
 
 Then set the key for whichever provider you use:
