@@ -1,4 +1,4 @@
-"""Agent definitions, carried over verbatim from the CrewAI flow.json.
+"""Agent definitions
 
 Placeholders: {threat_actor}, {scout_reports}, {observations}.
 """
