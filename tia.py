@@ -37,11 +37,8 @@ def log(msg: str) -> None:
 
 
 # --------------------------------------------------------------------------- #
-# Tools (replacements for crewai_tools ExaSearchTool and ScrapeWebsiteTool)
+# Tools
 # --------------------------------------------------------------------------- #
-
-class Tools:
-    """Behave like the CrewAI originals: same arguments, same Exa settings, same page-text extraction."""
 
     SCRAPE_HEADERS = {  # identical to ScrapeWebsiteTool
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
