@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Threat Intelligence Assembly Line: Scout -> Extractor -> ATT&CK Mapper.
 
-A provider-agnostic port of the CrewAI flow. Any tool-calling chat model works:
+Any tool-calling chat model works:
 Claude, GPT, Gemini, Qwen, OpenRouter, or a local OpenAI-compatible server.
 
     python tia.py "Lazarus Group" --model anthropic/claude-sonnet-5-5
