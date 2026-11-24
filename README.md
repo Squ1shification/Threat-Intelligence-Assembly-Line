@@ -1,6 +1,6 @@
 # Threat Intelligence Assembly Line (Python, model-agnostic)
 
-Port of the CrewAI `ThreatIntelAssemblyLine` flow to plain Python. Same three agents, same prompts, same two tools, but it runs on any tool-calling model through LiteLLM.
+This project requires API keys from exa.ai and another vendor of your choice (e.g, gemini, claude code, codex, etc.)
 
 1. **Scout**: searches Exa for vendor reports on the actor and scrapes each page.
 2. **Extractor**: pulls every technical observation out of the report text.
